@@ -169,7 +169,7 @@ class BaseController:
                 (quaternion.x, quaternion.y, quaternion.z, quaternion.w),
                 rospy.Time.now(),
                 self.base_frame,
-                "odom"
+                "robo1_tf/odom"
                 )
     
             odom = Odometry()
